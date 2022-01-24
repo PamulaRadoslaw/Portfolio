@@ -1,0 +1,63 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-size: "contain";
+    background-image: url("https://images.unsplash.com/photo-1508253640504-9096edc75163");
+    background-repeat: no-repeat;
+}
+
+;
+#portfolio {
+    font-style: italic;
+}
+
+#informacje {
+    margin-top: 10px;
+}
+
+#prace {
+    margin-top: 10px;
+}
+
+#kontakt {
+    margin-top: 10px;
+}
+
+#informacje:before {
+    display: block;
+    content: " ";
+    margin-top: -175px;
+    height: 175px;
+    visibility: hidden;
+}
+
+#prace:before {
+    display: block;
+    content: " ";
+    margin-top: -175px;
+    height: 175px;
+    visibility: hidden;
+}
+
+#kontakt:before {
+    display: block;
+    content: " ";
+    margin-top: -175px;
+    height: 175px;
+    visibility: hidden;
+}
+
+#kolumna1 {
+    text-align: center;
+}
+
+#kolumna2 {
+    text-align: center;
+}
+
+#kolumna3 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
