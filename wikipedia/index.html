@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Przeglądarka Wikipedii.</title>
+    <script src="https://use.fontawesome.com/15c98dbd15.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <a class="btn btn-primary" href="eng/" role="button">English version</a>
+    <div class="container">
+        <div class="text-center">
+            <h1>Wikipedia API</h1>
+            <h4>Przeglądarka Wikipedii</h4>
+            <p>Kliknij w logo wikipedii by otrzymać losową stronę</p>
+            <i class="fa fa-arrow-down" aria-hidden="true"></i>
+            <br>
+            <a href="https://pl.wikipedia.org/wiki/Special:Random" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Wikipedia_Logo_1.0.png/220px-Wikipedia_Logo_1.0.png">
+            </a>
+            <input class="form-control" id="searchTerm">
+            <button id="search" type="button" class="btn btn-primary">Szukaj</button>
+            <ul id="output">
+            </ul>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
